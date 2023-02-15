@@ -1,0 +1,2 @@
+com/jetpack/barcodescanner/BuildConfig.java
+ com.jetpack.barcodescanner.BuildConfig

@@ -1,6 +1,7 @@
 package com.jetpack.barcodescanner
 
 import android.Manifest
+import android.content.Context
 import android.os.Bundle
 import android.util.Log
 import android.view.ViewGroup
@@ -12,10 +13,8 @@ import androidx.camera.core.ImageAnalysis
 import androidx.camera.core.Preview
 import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.camera.view.PreviewView
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.*
 import androidx.compose.material.Button
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
@@ -23,21 +22,33 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.input.key.Key.Companion.Home
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalLifecycleOwner
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.core.content.ContextCompat
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.LifecycleEventObserver
+import androidx.navigation.NavHostController
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import androidx.navigation.compose.rememberNavController
+import coil.compose.rememberAsyncImagePainter
+import coil.request.ImageRequest
+import coil.size.Size
 import com.google.accompanist.permissions.ExperimentalPermissionsApi
+import com.google.accompanist.permissions.rememberMultiplePermissionsState
 import com.google.accompanist.permissions.rememberPermissionState
 import com.google.common.util.concurrent.ListenableFuture
+import com.jetpack.barcodescanner.camera.CameraPreview
 import com.jetpack.barcodescanner.ui.theme.BarcodeScannerTheme
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 
 @ExperimentalPermissionsApi
 class MainActivity : ComponentActivity() {
-    
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -47,20 +58,29 @@ class MainActivity : ComponentActivity() {
                         horizontalAlignment = Alignment.CenterHorizontally
                     ) {
                         Spacer(modifier = Modifier.height(10.dp))
-                        
-                        val cameraPermissionState = rememberPermissionState(permission = Manifest.permission.CAMERA)
-                        
-                        Button(
-                            onClick = {
-                                cameraPermissionState.launchPermissionRequest()
-                            }
+
+                        val navController = rememberNavController()
+                        NavHost(
+                            navController = navController,
+                            startDestination = Screen.MainScreen.route
                         ) {
-                            Text(text = "Camera Permission")
+                            composable(
+                                route = Screen.MainScreen.route
+                            ) {
+                                MultiplePermissions(navController)
+                            }
+                            composable(
+                                route = Screen.CameraScreen.route
+                            ) {
+                                CameraPreview()
+                            }
+                            composable(
+                                route = Screen.NextScreen.route
+                            ) {
+                                MainScreen(navController)
+                            }
                         }
 
-                        Spacer(modifier = Modifier.height(10.dp))
-                        
-                        CameraPreview()
                     }
                 }
             }
@@ -68,70 +88,93 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+
+@ExperimentalPermissionsApi
 @Composable
-fun CameraPreview() {
-    val context = LocalContext.current
+fun MultiplePermissions(navController: NavHostController) {
+    val permissionStates = rememberMultiplePermissionsState(
+        permissions = listOf(
+            Manifest.permission.CAMERA,
+            Manifest.permission.ACCESS_FINE_LOCATION
+        )
+    )
     val lifecycleOwner = LocalLifecycleOwner.current
-    var preview by remember { mutableStateOf<Preview?>(null) }
-    val barCodeVal = remember { mutableStateOf("") }
-    
-    AndroidView(
-        factory = { AndroidViewContext ->
-            PreviewView(AndroidViewContext).apply { 
-                this.scaleType = PreviewView.ScaleType.FILL_CENTER
-                layoutParams = ViewGroup.LayoutParams(
-                    ViewGroup.LayoutParams.MATCH_PARENT,
-                    ViewGroup.LayoutParams.MATCH_PARENT,
-                )
-                implementationMode = PreviewView.ImplementationMode.COMPATIBLE
-            }
-        },
-        modifier = Modifier
-            .fillMaxSize(),
-        update = { previewView ->
-            val cameraSelector: CameraSelector = CameraSelector.Builder()
-                .requireLensFacing(CameraSelector.LENS_FACING_BACK)
-                .build()
-            val cameraExecutor: ExecutorService = Executors.newSingleThreadExecutor()
-            val cameraProviderFuture: ListenableFuture<ProcessCameraProvider> = 
-                ProcessCameraProvider.getInstance(context)
-            
-            cameraProviderFuture.addListener({
-                preview = Preview.Builder().build().also { 
-                    it.setSurfaceProvider(previewView.surfaceProvider)
+
+    DisposableEffect(key1 = lifecycleOwner, effect = {
+        val observer = LifecycleEventObserver { _, event ->
+            when (event) {
+                Lifecycle.Event.ON_START -> {
+                    permissionStates.launchMultiplePermissionRequest()
                 }
-                val cameraProvider: ProcessCameraProvider = cameraProviderFuture.get()
-                val barcodeAnalyser = BarCodeAnalyser { barcodes ->
-                    barcodes.forEach { barcode ->
-                        barcode.rawValue?.let { barcodeValue ->
-                            barCodeVal.value = barcodeValue
-                            Toast.makeText(context, barcodeValue, Toast.LENGTH_SHORT).show()
+            }
+        }
+        lifecycleOwner.lifecycle.addObserver(observer)
+
+        onDispose {
+            lifecycleOwner.lifecycle.removeObserver(observer)
+        }
+    })
+    Column(
+        modifier = Modifier.fillMaxSize(),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center
+    )
+    {
+        permissionStates.permissions.forEach { it ->
+            when (it.permission) {
+                Manifest.permission.CAMERA -> {
+                    when {
+                        it.hasPermission -> {
+                            /* Permission has been granted by the user.
+                               You can use this permission to now acquire the location of the device.
+                               You can perform some other tasks here.
+                            */
+//                            Text(text = "Read Ext Storage permission has been granted")
+                        }
+                        it.shouldShowRationale -> {
+                            /*Happens if a user denies the permission two times
+
+                             */
+                            Text(text = "Read Ext Storage permission is needed")
+                        }
+                        !it.hasPermission && !it.shouldShowRationale -> {
+                            /* If the permission is denied and the should not show rationale
+                                You can only allow the permission manually through app settings
+                             */
+                            Text(text = "Navigate to settings and enable the Storage permission")
+
                         }
                     }
                 }
-                val imageAnalysis: ImageAnalysis = ImageAnalysis.Builder()
-                    .setBackpressureStrategy(ImageAnalysis.STRATEGY_KEEP_ONLY_LATEST)
-                    .build()
-                    .also {
-                        it.setAnalyzer(cameraExecutor, barcodeAnalyser)
+                Manifest.permission.ACCESS_FINE_LOCATION -> {
+                    when {
+                        it.hasPermission -> {
+                            /* Permission has been granted by the user.
+                               You can use this permission to now acquire the location of the device.
+                               You can perform some other tasks here.
+                            */
+                            MainScreen(navController = navController)
+                        }
+                        it.shouldShowRationale -> {
+                            /*Happens if a user denies the permission two times
+
+                             */
+                            Text(text = "Location permission is needed")
+
+                        }
+                        !it.hasPermission && !it.shouldShowRationale -> {
+                            /* If the permission is denied and the should not show rationale
+                                You can only allow the permission manually through app settings
+                             */
+                            Text(text = "Navigate to settings and enable the Location permission")
+
+                        }
                     }
-
-                try {
-                    cameraProvider.unbindAll()
-                    cameraProvider.bindToLifecycle(
-                        lifecycleOwner,
-                        cameraSelector,
-                        preview,
-                        imageAnalysis
-                    )
-                } catch (e: Exception) {
-                    Log.d("TAG", "CameraPreview: ${e.localizedMessage}")
                 }
-            }, ContextCompat.getMainExecutor(context))
+            }
         }
-    )
+    }
 }
-
 
 
 
