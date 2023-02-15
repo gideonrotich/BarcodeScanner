@@ -6,212 +6,212 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
-8-->/home/gideon/StudioProjects/Jetpack-Compose-BarCode-Scanner/app/src/main/AndroidManifest.xml
+8-->D:\ANDROID\XMLClones\BarcodeScannerMine\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="31" />
-9-->/home/gideon/StudioProjects/Jetpack-Compose-BarCode-Scanner/app/src/main/AndroidManifest.xml
+9-->D:\ANDROID\XMLClones\BarcodeScannerMine\app\src\main\AndroidManifest.xml
 10
 11    <uses-feature android:name="android.hardware.camera" />
-11-->/home/gideon/StudioProjects/Jetpack-Compose-BarCode-Scanner/app/src/main/AndroidManifest.xml:5:5-60
-11-->/home/gideon/StudioProjects/Jetpack-Compose-BarCode-Scanner/app/src/main/AndroidManifest.xml:5:19-57
+11-->D:\ANDROID\XMLClones\BarcodeScannerMine\app\src\main\AndroidManifest.xml:5:5-60
+11-->D:\ANDROID\XMLClones\BarcodeScannerMine\app\src\main\AndroidManifest.xml:5:19-57
 12
 13    <uses-permission android:name="android.permission.CAMERA" />
-13-->/home/gideon/StudioProjects/Jetpack-Compose-BarCode-Scanner/app/src/main/AndroidManifest.xml:6:5-65
-13-->/home/gideon/StudioProjects/Jetpack-Compose-BarCode-Scanner/app/src/main/AndroidManifest.xml:6:22-62
+13-->D:\ANDROID\XMLClones\BarcodeScannerMine\app\src\main\AndroidManifest.xml:6:5-65
+13-->D:\ANDROID\XMLClones\BarcodeScannerMine\app\src\main\AndroidManifest.xml:6:22-62
 14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-14-->/home/gideon/StudioProjects/Jetpack-Compose-BarCode-Scanner/app/src/main/AndroidManifest.xml:7:5-78
-14-->/home/gideon/StudioProjects/Jetpack-Compose-BarCode-Scanner/app/src/main/AndroidManifest.xml:7:22-76
+14-->D:\ANDROID\XMLClones\BarcodeScannerMine\app\src\main\AndroidManifest.xml:7:5-78
+14-->D:\ANDROID\XMLClones\BarcodeScannerMine\app\src\main\AndroidManifest.xml:7:22-76
 15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-15-->/home/gideon/StudioProjects/Jetpack-Compose-BarCode-Scanner/app/src/main/AndroidManifest.xml:8:5-80
-15-->/home/gideon/StudioProjects/Jetpack-Compose-BarCode-Scanner/app/src/main/AndroidManifest.xml:8:22-78
+15-->D:\ANDROID\XMLClones\BarcodeScannerMine\app\src\main\AndroidManifest.xml:8:5-80
+15-->D:\ANDROID\XMLClones\BarcodeScannerMine\app\src\main\AndroidManifest.xml:8:22-78
 16
 17    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
 18    <!-- <uses-sdk android:minSdkVersion="14"/> -->
 19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-19-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/gideon/Android/Sdk/caches/transforms-3/ffc39c835b9ff4e130bd599ee3bc6b1c/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
-19-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/gideon/Android/Sdk/caches/transforms-3/ffc39c835b9ff4e130bd599ee3bc6b1c/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:22-76
+19-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\User\.gradle\caches\transforms-3\ffc39c835b9ff4e130bd599ee3bc6b1c\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+19-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\User\.gradle\caches\transforms-3\ffc39c835b9ff4e130bd599ee3bc6b1c\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:22-76
 20    <uses-permission android:name="android.permission.INTERNET" />
-20-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/gideon/Android/Sdk/caches/transforms-3/ffc39c835b9ff4e130bd599ee3bc6b1c/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
-20-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/gideon/Android/Sdk/caches/transforms-3/ffc39c835b9ff4e130bd599ee3bc6b1c/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:22-64
+20-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\User\.gradle\caches\transforms-3\ffc39c835b9ff4e130bd599ee3bc6b1c\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
+20-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\User\.gradle\caches\transforms-3\ffc39c835b9ff4e130bd599ee3bc6b1c\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:26:22-64
 21
 22    <application
-22-->/home/gideon/StudioProjects/Jetpack-Compose-BarCode-Scanner/app/src/main/AndroidManifest.xml:10:5-28:19
+22-->D:\ANDROID\XMLClones\BarcodeScannerMine\app\src\main\AndroidManifest.xml:10:5-28:19
 23        android:allowBackup="true"
-23-->/home/gideon/StudioProjects/Jetpack-Compose-BarCode-Scanner/app/src/main/AndroidManifest.xml:11:9-35
+23-->D:\ANDROID\XMLClones\BarcodeScannerMine\app\src\main\AndroidManifest.xml:11:9-35
 24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-24-->[androidx.core:core:1.7.0] /home/gideon/Android/Sdk/caches/transforms-3/acb209d88ce91ed7fb4d20f7c42190d1/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+24-->[androidx.core:core:1.7.0] C:\Users\User\.gradle\caches\transforms-3\acb209d88ce91ed7fb4d20f7c42190d1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 25        android:debuggable="true"
 26        android:extractNativeLibs="false"
 27        android:icon="@mipmap/ic_launcher"
-27-->/home/gideon/StudioProjects/Jetpack-Compose-BarCode-Scanner/app/src/main/AndroidManifest.xml:12:9-43
+27-->D:\ANDROID\XMLClones\BarcodeScannerMine\app\src\main\AndroidManifest.xml:12:9-43
 28        android:label="@string/app_name"
-28-->/home/gideon/StudioProjects/Jetpack-Compose-BarCode-Scanner/app/src/main/AndroidManifest.xml:13:9-41
+28-->D:\ANDROID\XMLClones\BarcodeScannerMine\app\src\main\AndroidManifest.xml:13:9-41
 29        android:roundIcon="@mipmap/ic_launcher_round"
-29-->/home/gideon/StudioProjects/Jetpack-Compose-BarCode-Scanner/app/src/main/AndroidManifest.xml:14:9-54
+29-->D:\ANDROID\XMLClones\BarcodeScannerMine\app\src\main\AndroidManifest.xml:14:9-54
 30        android:supportsRtl="true"
-30-->/home/gideon/StudioProjects/Jetpack-Compose-BarCode-Scanner/app/src/main/AndroidManifest.xml:15:9-35
+30-->D:\ANDROID\XMLClones\BarcodeScannerMine\app\src\main\AndroidManifest.xml:15:9-35
 31        android:testOnly="true"
 32        android:theme="@style/Theme.BarcodeScanner" >
-32-->/home/gideon/StudioProjects/Jetpack-Compose-BarCode-Scanner/app/src/main/AndroidManifest.xml:16:9-52
+32-->D:\ANDROID\XMLClones\BarcodeScannerMine\app\src\main\AndroidManifest.xml:16:9-52
 33        <activity
-33-->/home/gideon/StudioProjects/Jetpack-Compose-BarCode-Scanner/app/src/main/AndroidManifest.xml:17:9-27:20
+33-->D:\ANDROID\XMLClones\BarcodeScannerMine\app\src\main\AndroidManifest.xml:17:9-27:20
 34            android:name="com.jetpack.barcodescanner.MainActivity"
-34-->/home/gideon/StudioProjects/Jetpack-Compose-BarCode-Scanner/app/src/main/AndroidManifest.xml:18:13-41
+34-->D:\ANDROID\XMLClones\BarcodeScannerMine\app\src\main\AndroidManifest.xml:18:13-41
 35            android:exported="true"
-35-->/home/gideon/StudioProjects/Jetpack-Compose-BarCode-Scanner/app/src/main/AndroidManifest.xml:19:13-36
+35-->D:\ANDROID\XMLClones\BarcodeScannerMine\app\src\main\AndroidManifest.xml:19:13-36
 36            android:label="@string/app_name"
-36-->/home/gideon/StudioProjects/Jetpack-Compose-BarCode-Scanner/app/src/main/AndroidManifest.xml:20:13-45
+36-->D:\ANDROID\XMLClones\BarcodeScannerMine\app\src\main\AndroidManifest.xml:20:13-45
 37            android:theme="@style/Theme.BarcodeScanner.NoActionBar" >
-37-->/home/gideon/StudioProjects/Jetpack-Compose-BarCode-Scanner/app/src/main/AndroidManifest.xml:21:13-68
+37-->D:\ANDROID\XMLClones\BarcodeScannerMine\app\src\main\AndroidManifest.xml:21:13-68
 38            <intent-filter>
-38-->/home/gideon/StudioProjects/Jetpack-Compose-BarCode-Scanner/app/src/main/AndroidManifest.xml:22:13-26:29
+38-->D:\ANDROID\XMLClones\BarcodeScannerMine\app\src\main\AndroidManifest.xml:22:13-26:29
 39                <action android:name="android.intent.action.MAIN" />
-39-->/home/gideon/StudioProjects/Jetpack-Compose-BarCode-Scanner/app/src/main/AndroidManifest.xml:23:17-69
-39-->/home/gideon/StudioProjects/Jetpack-Compose-BarCode-Scanner/app/src/main/AndroidManifest.xml:23:25-66
+39-->D:\ANDROID\XMLClones\BarcodeScannerMine\app\src\main\AndroidManifest.xml:23:17-69
+39-->D:\ANDROID\XMLClones\BarcodeScannerMine\app\src\main\AndroidManifest.xml:23:25-66
 40
 41                <category android:name="android.intent.category.LAUNCHER" />
-41-->/home/gideon/StudioProjects/Jetpack-Compose-BarCode-Scanner/app/src/main/AndroidManifest.xml:25:17-77
-41-->/home/gideon/StudioProjects/Jetpack-Compose-BarCode-Scanner/app/src/main/AndroidManifest.xml:25:27-74
+41-->D:\ANDROID\XMLClones\BarcodeScannerMine\app\src\main\AndroidManifest.xml:25:17-77
+41-->D:\ANDROID\XMLClones\BarcodeScannerMine\app\src\main\AndroidManifest.xml:25:27-74
 42            </intent-filter>
 43        </activity>
 44        <activity
-44-->[androidx.compose.ui:ui-tooling:1.0.1] /home/gideon/Android/Sdk/caches/transforms-3/d3d1863f5e1a6bd5ba5355a0256021a3/transformed/jetified-ui-tooling-1.0.1/AndroidManifest.xml:25:9-27:39
+44-->[androidx.compose.ui:ui-tooling:1.0.1] C:\Users\User\.gradle\caches\transforms-3\d3d1863f5e1a6bd5ba5355a0256021a3\transformed\jetified-ui-tooling-1.0.1\AndroidManifest.xml:25:9-27:39
 45            android:name="androidx.compose.ui.tooling.PreviewActivity"
-45-->[androidx.compose.ui:ui-tooling:1.0.1] /home/gideon/Android/Sdk/caches/transforms-3/d3d1863f5e1a6bd5ba5355a0256021a3/transformed/jetified-ui-tooling-1.0.1/AndroidManifest.xml:26:13-71
+45-->[androidx.compose.ui:ui-tooling:1.0.1] C:\Users\User\.gradle\caches\transforms-3\d3d1863f5e1a6bd5ba5355a0256021a3\transformed\jetified-ui-tooling-1.0.1\AndroidManifest.xml:26:13-71
 46            android:exported="true" />
-46-->[androidx.compose.ui:ui-tooling:1.0.1] /home/gideon/Android/Sdk/caches/transforms-3/d3d1863f5e1a6bd5ba5355a0256021a3/transformed/jetified-ui-tooling-1.0.1/AndroidManifest.xml:27:13-36
+46-->[androidx.compose.ui:ui-tooling:1.0.1] C:\Users\User\.gradle\caches\transforms-3\d3d1863f5e1a6bd5ba5355a0256021a3\transformed\jetified-ui-tooling-1.0.1\AndroidManifest.xml:27:13-36
 47
 48        <service
-48-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.1] /home/gideon/Android/Sdk/caches/transforms-3/e2ab42e2e8e1beed18c5decb2bdbff7e/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.1/AndroidManifest.xml:9:9-15:19
+48-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.1] C:\Users\User\.gradle\caches\transforms-3\e2ab42e2e8e1beed18c5decb2bdbff7e\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.1\AndroidManifest.xml:9:9-15:19
 49            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
-49-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.1] /home/gideon/Android/Sdk/caches/transforms-3/e2ab42e2e8e1beed18c5decb2bdbff7e/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.1/AndroidManifest.xml:10:13-91
+49-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.1] C:\Users\User\.gradle\caches\transforms-3\e2ab42e2e8e1beed18c5decb2bdbff7e\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.1\AndroidManifest.xml:10:13-91
 50            android:directBootAware="true"
-50-->[com.google.mlkit:common:17.3.0] /home/gideon/Android/Sdk/caches/transforms-3/d674869fb2963b498dc620736b1e7646/transformed/jetified-common-17.3.0/AndroidManifest.xml:17:13-43
+50-->[com.google.mlkit:common:17.3.0] C:\Users\User\.gradle\caches\transforms-3\d674869fb2963b498dc620736b1e7646\transformed\jetified-common-17.3.0\AndroidManifest.xml:17:13-43
 51            android:exported="false" >
-51-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.1] /home/gideon/Android/Sdk/caches/transforms-3/e2ab42e2e8e1beed18c5decb2bdbff7e/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.1/AndroidManifest.xml:11:13-37
+51-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.1] C:\Users\User\.gradle\caches\transforms-3\e2ab42e2e8e1beed18c5decb2bdbff7e\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.1\AndroidManifest.xml:11:13-37
 52            <meta-data
-52-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.1] /home/gideon/Android/Sdk/caches/transforms-3/e2ab42e2e8e1beed18c5decb2bdbff7e/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.1/AndroidManifest.xml:12:13-14:85
+52-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.1] C:\Users\User\.gradle\caches\transforms-3\e2ab42e2e8e1beed18c5decb2bdbff7e\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.1\AndroidManifest.xml:12:13-14:85
 53                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
-53-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.1] /home/gideon/Android/Sdk/caches/transforms-3/e2ab42e2e8e1beed18c5decb2bdbff7e/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.1/AndroidManifest.xml:13:17-120
+53-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.1] C:\Users\User\.gradle\caches\transforms-3\e2ab42e2e8e1beed18c5decb2bdbff7e\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.1\AndroidManifest.xml:13:17-120
 54                android:value="com.google.firebase.components.ComponentRegistrar" />
-54-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.1] /home/gideon/Android/Sdk/caches/transforms-3/e2ab42e2e8e1beed18c5decb2bdbff7e/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.1/AndroidManifest.xml:14:17-82
+54-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.1] C:\Users\User\.gradle\caches\transforms-3\e2ab42e2e8e1beed18c5decb2bdbff7e\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.1\AndroidManifest.xml:14:17-82
 55            <meta-data
-55-->[com.google.mlkit:vision-common:16.5.0] /home/gideon/Android/Sdk/caches/transforms-3/3cba1928aaf61c3819c61e492086b320/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:12:13-14:85
+55-->[com.google.mlkit:vision-common:16.5.0] C:\Users\User\.gradle\caches\transforms-3\3cba1928aaf61c3819c61e492086b320\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:12:13-14:85
 56                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
-56-->[com.google.mlkit:vision-common:16.5.0] /home/gideon/Android/Sdk/caches/transforms-3/3cba1928aaf61c3819c61e492086b320/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:13:17-124
+56-->[com.google.mlkit:vision-common:16.5.0] C:\Users\User\.gradle\caches\transforms-3\3cba1928aaf61c3819c61e492086b320\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:13:17-124
 57                android:value="com.google.firebase.components.ComponentRegistrar" />
-57-->[com.google.mlkit:vision-common:16.5.0] /home/gideon/Android/Sdk/caches/transforms-3/3cba1928aaf61c3819c61e492086b320/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:14:17-82
+57-->[com.google.mlkit:vision-common:16.5.0] C:\Users\User\.gradle\caches\transforms-3\3cba1928aaf61c3819c61e492086b320\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:14:17-82
 58            <meta-data
-58-->[com.google.mlkit:common:17.3.0] /home/gideon/Android/Sdk/caches/transforms-3/d674869fb2963b498dc620736b1e7646/transformed/jetified-common-17.3.0/AndroidManifest.xml:20:13-22:85
+58-->[com.google.mlkit:common:17.3.0] C:\Users\User\.gradle\caches\transforms-3\d674869fb2963b498dc620736b1e7646\transformed\jetified-common-17.3.0\AndroidManifest.xml:20:13-22:85
 59                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
-59-->[com.google.mlkit:common:17.3.0] /home/gideon/Android/Sdk/caches/transforms-3/d674869fb2963b498dc620736b1e7646/transformed/jetified-common-17.3.0/AndroidManifest.xml:21:17-120
+59-->[com.google.mlkit:common:17.3.0] C:\Users\User\.gradle\caches\transforms-3\d674869fb2963b498dc620736b1e7646\transformed\jetified-common-17.3.0\AndroidManifest.xml:21:17-120
 60                android:value="com.google.firebase.components.ComponentRegistrar" />
-60-->[com.google.mlkit:common:17.3.0] /home/gideon/Android/Sdk/caches/transforms-3/d674869fb2963b498dc620736b1e7646/transformed/jetified-common-17.3.0/AndroidManifest.xml:22:17-82
+60-->[com.google.mlkit:common:17.3.0] C:\Users\User\.gradle\caches\transforms-3\d674869fb2963b498dc620736b1e7646\transformed\jetified-common-17.3.0\AndroidManifest.xml:22:17-82
 61        </service>
 62
 63        <provider
-63-->[com.google.mlkit:common:17.3.0] /home/gideon/Android/Sdk/caches/transforms-3/d674869fb2963b498dc620736b1e7646/transformed/jetified-common-17.3.0/AndroidManifest.xml:9:9-13:38
+63-->[com.google.mlkit:common:17.3.0] C:\Users\User\.gradle\caches\transforms-3\d674869fb2963b498dc620736b1e7646\transformed\jetified-common-17.3.0\AndroidManifest.xml:9:9-13:38
 64            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
-64-->[com.google.mlkit:common:17.3.0] /home/gideon/Android/Sdk/caches/transforms-3/d674869fb2963b498dc620736b1e7646/transformed/jetified-common-17.3.0/AndroidManifest.xml:10:13-78
+64-->[com.google.mlkit:common:17.3.0] C:\Users\User\.gradle\caches\transforms-3\d674869fb2963b498dc620736b1e7646\transformed\jetified-common-17.3.0\AndroidManifest.xml:10:13-78
 65            android:authorities="com.jetpack.barcodescanner.mlkitinitprovider"
-65-->[com.google.mlkit:common:17.3.0] /home/gideon/Android/Sdk/caches/transforms-3/d674869fb2963b498dc620736b1e7646/transformed/jetified-common-17.3.0/AndroidManifest.xml:11:13-69
+65-->[com.google.mlkit:common:17.3.0] C:\Users\User\.gradle\caches\transforms-3\d674869fb2963b498dc620736b1e7646\transformed\jetified-common-17.3.0\AndroidManifest.xml:11:13-69
 66            android:exported="false"
-66-->[com.google.mlkit:common:17.3.0] /home/gideon/Android/Sdk/caches/transforms-3/d674869fb2963b498dc620736b1e7646/transformed/jetified-common-17.3.0/AndroidManifest.xml:12:13-37
+66-->[com.google.mlkit:common:17.3.0] C:\Users\User\.gradle\caches\transforms-3\d674869fb2963b498dc620736b1e7646\transformed\jetified-common-17.3.0\AndroidManifest.xml:12:13-37
 67            android:initOrder="99" />
-67-->[com.google.mlkit:common:17.3.0] /home/gideon/Android/Sdk/caches/transforms-3/d674869fb2963b498dc620736b1e7646/transformed/jetified-common-17.3.0/AndroidManifest.xml:13:13-35
+67-->[com.google.mlkit:common:17.3.0] C:\Users\User\.gradle\caches\transforms-3\d674869fb2963b498dc620736b1e7646\transformed\jetified-common-17.3.0\AndroidManifest.xml:13:13-35
 68
 69        <activity
-69-->[com.google.android.gms:play-services-base:17.6.0] /home/gideon/Android/Sdk/caches/transforms-3/fec6c74c3b5836a1694b124fdc236ac3/transformed/jetified-play-services-base-17.6.0/AndroidManifest.xml:23:9-26:75
+69-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\User\.gradle\caches\transforms-3\fec6c74c3b5836a1694b124fdc236ac3\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:23:9-26:75
 70            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-70-->[com.google.android.gms:play-services-base:17.6.0] /home/gideon/Android/Sdk/caches/transforms-3/fec6c74c3b5836a1694b124fdc236ac3/transformed/jetified-play-services-base-17.6.0/AndroidManifest.xml:24:13-79
+70-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\User\.gradle\caches\transforms-3\fec6c74c3b5836a1694b124fdc236ac3\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:24:13-79
 71            android:exported="false"
-71-->[com.google.android.gms:play-services-base:17.6.0] /home/gideon/Android/Sdk/caches/transforms-3/fec6c74c3b5836a1694b124fdc236ac3/transformed/jetified-play-services-base-17.6.0/AndroidManifest.xml:25:13-37
+71-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\User\.gradle\caches\transforms-3\fec6c74c3b5836a1694b124fdc236ac3\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:25:13-37
 72            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-72-->[com.google.android.gms:play-services-base:17.6.0] /home/gideon/Android/Sdk/caches/transforms-3/fec6c74c3b5836a1694b124fdc236ac3/transformed/jetified-play-services-base-17.6.0/AndroidManifest.xml:26:13-72
+72-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\User\.gradle\caches\transforms-3\fec6c74c3b5836a1694b124fdc236ac3\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:26:13-72
 73
 74        <meta-data
-74-->[com.google.android.gms:play-services-basement:17.6.0] /home/gideon/Android/Sdk/caches/transforms-3/52d4c0af510650cb8fe8910795c1339f/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:23:9-25:69
+74-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\User\.gradle\caches\transforms-3\52d4c0af510650cb8fe8910795c1339f\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
 75            android:name="com.google.android.gms.version"
-75-->[com.google.android.gms:play-services-basement:17.6.0] /home/gideon/Android/Sdk/caches/transforms-3/52d4c0af510650cb8fe8910795c1339f/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:24:13-58
+75-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\User\.gradle\caches\transforms-3\52d4c0af510650cb8fe8910795c1339f\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:24:13-58
 76            android:value="@integer/google_play_services_version" />
-76-->[com.google.android.gms:play-services-basement:17.6.0] /home/gideon/Android/Sdk/caches/transforms-3/52d4c0af510650cb8fe8910795c1339f/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:25:13-66
+76-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\User\.gradle\caches\transforms-3\52d4c0af510650cb8fe8910795c1339f\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:25:13-66
 77
 78        <provider
-78-->[androidx.emoji2:emoji2:1.0.0] /home/gideon/Android/Sdk/caches/transforms-3/ee68e2678ef02ddeffbc1592ec72bc9c/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+78-->[androidx.emoji2:emoji2:1.0.0] C:\Users\User\.gradle\caches\transforms-3\ee68e2678ef02ddeffbc1592ec72bc9c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
 79            android:name="androidx.startup.InitializationProvider"
-79-->[androidx.emoji2:emoji2:1.0.0] /home/gideon/Android/Sdk/caches/transforms-3/ee68e2678ef02ddeffbc1592ec72bc9c/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+79-->[androidx.emoji2:emoji2:1.0.0] C:\Users\User\.gradle\caches\transforms-3\ee68e2678ef02ddeffbc1592ec72bc9c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
 80            android:authorities="com.jetpack.barcodescanner.androidx-startup"
-80-->[androidx.emoji2:emoji2:1.0.0] /home/gideon/Android/Sdk/caches/transforms-3/ee68e2678ef02ddeffbc1592ec72bc9c/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+80-->[androidx.emoji2:emoji2:1.0.0] C:\Users\User\.gradle\caches\transforms-3\ee68e2678ef02ddeffbc1592ec72bc9c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
 81            android:exported="false" >
-81-->[androidx.emoji2:emoji2:1.0.0] /home/gideon/Android/Sdk/caches/transforms-3/ee68e2678ef02ddeffbc1592ec72bc9c/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+81-->[androidx.emoji2:emoji2:1.0.0] C:\Users\User\.gradle\caches\transforms-3\ee68e2678ef02ddeffbc1592ec72bc9c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
 82            <meta-data
-82-->[androidx.emoji2:emoji2:1.0.0] /home/gideon/Android/Sdk/caches/transforms-3/ee68e2678ef02ddeffbc1592ec72bc9c/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+82-->[androidx.emoji2:emoji2:1.0.0] C:\Users\User\.gradle\caches\transforms-3\ee68e2678ef02ddeffbc1592ec72bc9c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
 83                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-83-->[androidx.emoji2:emoji2:1.0.0] /home/gideon/Android/Sdk/caches/transforms-3/ee68e2678ef02ddeffbc1592ec72bc9c/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+83-->[androidx.emoji2:emoji2:1.0.0] C:\Users\User\.gradle\caches\transforms-3\ee68e2678ef02ddeffbc1592ec72bc9c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
 84                android:value="androidx.startup" />
-84-->[androidx.emoji2:emoji2:1.0.0] /home/gideon/Android/Sdk/caches/transforms-3/ee68e2678ef02ddeffbc1592ec72bc9c/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+84-->[androidx.emoji2:emoji2:1.0.0] C:\Users\User\.gradle\caches\transforms-3\ee68e2678ef02ddeffbc1592ec72bc9c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
 85            <meta-data
-85-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/gideon/Android/Sdk/caches/transforms-3/3ad0d4a7bea5d426e1f41765612cfcdb/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+85-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\User\.gradle\caches\transforms-3\3ad0d4a7bea5d426e1f41765612cfcdb\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
 86                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-86-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/gideon/Android/Sdk/caches/transforms-3/3ad0d4a7bea5d426e1f41765612cfcdb/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+86-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\User\.gradle\caches\transforms-3\3ad0d4a7bea5d426e1f41765612cfcdb\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
 87                android:value="androidx.startup" />
-87-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/gideon/Android/Sdk/caches/transforms-3/3ad0d4a7bea5d426e1f41765612cfcdb/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+87-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\User\.gradle\caches\transforms-3\3ad0d4a7bea5d426e1f41765612cfcdb\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
 88            <meta-data
-88-->[androidx.profileinstaller:profileinstaller:1.1.0] /home/gideon/Android/Sdk/caches/transforms-3/805156d3aaf39e454bb02d1ba8f7a89b/transformed/jetified-profileinstaller-1.1.0/AndroidManifest.xml:31:13-33:52
+88-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\User\.gradle\caches\transforms-3\805156d3aaf39e454bb02d1ba8f7a89b\transformed\jetified-profileinstaller-1.1.0\AndroidManifest.xml:31:13-33:52
 89                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-89-->[androidx.profileinstaller:profileinstaller:1.1.0] /home/gideon/Android/Sdk/caches/transforms-3/805156d3aaf39e454bb02d1ba8f7a89b/transformed/jetified-profileinstaller-1.1.0/AndroidManifest.xml:32:17-85
+89-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\User\.gradle\caches\transforms-3\805156d3aaf39e454bb02d1ba8f7a89b\transformed\jetified-profileinstaller-1.1.0\AndroidManifest.xml:32:17-85
 90                android:value="androidx.startup" />
-90-->[androidx.profileinstaller:profileinstaller:1.1.0] /home/gideon/Android/Sdk/caches/transforms-3/805156d3aaf39e454bb02d1ba8f7a89b/transformed/jetified-profileinstaller-1.1.0/AndroidManifest.xml:33:17-49
+90-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\User\.gradle\caches\transforms-3\805156d3aaf39e454bb02d1ba8f7a89b\transformed\jetified-profileinstaller-1.1.0\AndroidManifest.xml:33:17-49
 91        </provider>
 92
 93        <receiver
-93-->[androidx.profileinstaller:profileinstaller:1.1.0] /home/gideon/Android/Sdk/caches/transforms-3/805156d3aaf39e454bb02d1ba8f7a89b/transformed/jetified-profileinstaller-1.1.0/AndroidManifest.xml:36:9-45:20
+93-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\User\.gradle\caches\transforms-3\805156d3aaf39e454bb02d1ba8f7a89b\transformed\jetified-profileinstaller-1.1.0\AndroidManifest.xml:36:9-45:20
 94            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-94-->[androidx.profileinstaller:profileinstaller:1.1.0] /home/gideon/Android/Sdk/caches/transforms-3/805156d3aaf39e454bb02d1ba8f7a89b/transformed/jetified-profileinstaller-1.1.0/AndroidManifest.xml:37:13-76
+94-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\User\.gradle\caches\transforms-3\805156d3aaf39e454bb02d1ba8f7a89b\transformed\jetified-profileinstaller-1.1.0\AndroidManifest.xml:37:13-76
 95            android:directBootAware="false"
-95-->[androidx.profileinstaller:profileinstaller:1.1.0] /home/gideon/Android/Sdk/caches/transforms-3/805156d3aaf39e454bb02d1ba8f7a89b/transformed/jetified-profileinstaller-1.1.0/AndroidManifest.xml:38:13-44
+95-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\User\.gradle\caches\transforms-3\805156d3aaf39e454bb02d1ba8f7a89b\transformed\jetified-profileinstaller-1.1.0\AndroidManifest.xml:38:13-44
 96            android:enabled="true"
-96-->[androidx.profileinstaller:profileinstaller:1.1.0] /home/gideon/Android/Sdk/caches/transforms-3/805156d3aaf39e454bb02d1ba8f7a89b/transformed/jetified-profileinstaller-1.1.0/AndroidManifest.xml:39:13-35
+96-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\User\.gradle\caches\transforms-3\805156d3aaf39e454bb02d1ba8f7a89b\transformed\jetified-profileinstaller-1.1.0\AndroidManifest.xml:39:13-35
 97            android:exported="true"
-97-->[androidx.profileinstaller:profileinstaller:1.1.0] /home/gideon/Android/Sdk/caches/transforms-3/805156d3aaf39e454bb02d1ba8f7a89b/transformed/jetified-profileinstaller-1.1.0/AndroidManifest.xml:40:13-36
+97-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\User\.gradle\caches\transforms-3\805156d3aaf39e454bb02d1ba8f7a89b\transformed\jetified-profileinstaller-1.1.0\AndroidManifest.xml:40:13-36
 98            android:permission="android.permission.DUMP" >
-98-->[androidx.profileinstaller:profileinstaller:1.1.0] /home/gideon/Android/Sdk/caches/transforms-3/805156d3aaf39e454bb02d1ba8f7a89b/transformed/jetified-profileinstaller-1.1.0/AndroidManifest.xml:41:13-57
+98-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\User\.gradle\caches\transforms-3\805156d3aaf39e454bb02d1ba8f7a89b\transformed\jetified-profileinstaller-1.1.0\AndroidManifest.xml:41:13-57
 99            <intent-filter>
-99-->[androidx.profileinstaller:profileinstaller:1.1.0] /home/gideon/Android/Sdk/caches/transforms-3/805156d3aaf39e454bb02d1ba8f7a89b/transformed/jetified-profileinstaller-1.1.0/AndroidManifest.xml:42:13-44:29
+99-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\User\.gradle\caches\transforms-3\805156d3aaf39e454bb02d1ba8f7a89b\transformed\jetified-profileinstaller-1.1.0\AndroidManifest.xml:42:13-44:29
 100                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-100-->[androidx.profileinstaller:profileinstaller:1.1.0] /home/gideon/Android/Sdk/caches/transforms-3/805156d3aaf39e454bb02d1ba8f7a89b/transformed/jetified-profileinstaller-1.1.0/AndroidManifest.xml:43:17-91
-100-->[androidx.profileinstaller:profileinstaller:1.1.0] /home/gideon/Android/Sdk/caches/transforms-3/805156d3aaf39e454bb02d1ba8f7a89b/transformed/jetified-profileinstaller-1.1.0/AndroidManifest.xml:43:25-88
+100-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\User\.gradle\caches\transforms-3\805156d3aaf39e454bb02d1ba8f7a89b\transformed\jetified-profileinstaller-1.1.0\AndroidManifest.xml:43:17-91
+100-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\User\.gradle\caches\transforms-3\805156d3aaf39e454bb02d1ba8f7a89b\transformed\jetified-profileinstaller-1.1.0\AndroidManifest.xml:43:25-88
 101            </intent-filter>
 102        </receiver>
 103
 104        <service
-104-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/gideon/Android/Sdk/caches/transforms-3/ffc39c835b9ff4e130bd599ee3bc6b1c/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+104-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\User\.gradle\caches\transforms-3\ffc39c835b9ff4e130bd599ee3bc6b1c\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
 105            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-105-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/gideon/Android/Sdk/caches/transforms-3/ffc39c835b9ff4e130bd599ee3bc6b1c/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+105-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\User\.gradle\caches\transforms-3\ffc39c835b9ff4e130bd599ee3bc6b1c\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
 106            android:exported="false" >
-106-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/gideon/Android/Sdk/caches/transforms-3/ffc39c835b9ff4e130bd599ee3bc6b1c/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+106-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\User\.gradle\caches\transforms-3\ffc39c835b9ff4e130bd599ee3bc6b1c\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
 107            <meta-data
-107-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/gideon/Android/Sdk/caches/transforms-3/ffc39c835b9ff4e130bd599ee3bc6b1c/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+107-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\User\.gradle\caches\transforms-3\ffc39c835b9ff4e130bd599ee3bc6b1c\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
 108                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-108-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/gideon/Android/Sdk/caches/transforms-3/ffc39c835b9ff4e130bd599ee3bc6b1c/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+108-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\User\.gradle\caches\transforms-3\ffc39c835b9ff4e130bd599ee3bc6b1c\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
 109                android:value="cct" />
-109-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/gideon/Android/Sdk/caches/transforms-3/ffc39c835b9ff4e130bd599ee3bc6b1c/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+109-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\User\.gradle\caches\transforms-3\ffc39c835b9ff4e130bd599ee3bc6b1c\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
 110        </service>
 111        <service
-111-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/gideon/Android/Sdk/caches/transforms-3/b8962676d9edf245416937af5de0e856/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+111-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\User\.gradle\caches\transforms-3\b8962676d9edf245416937af5de0e856\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
 112            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-112-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/gideon/Android/Sdk/caches/transforms-3/b8962676d9edf245416937af5de0e856/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+112-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\User\.gradle\caches\transforms-3\b8962676d9edf245416937af5de0e856\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
 113            android:exported="false"
-113-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/gideon/Android/Sdk/caches/transforms-3/b8962676d9edf245416937af5de0e856/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+113-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\User\.gradle\caches\transforms-3\b8962676d9edf245416937af5de0e856\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
 114            android:permission="android.permission.BIND_JOB_SERVICE" >
-114-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/gideon/Android/Sdk/caches/transforms-3/b8962676d9edf245416937af5de0e856/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+114-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\User\.gradle\caches\transforms-3\b8962676d9edf245416937af5de0e856\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
 115        </service>
 116
 117        <receiver
-117-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/gideon/Android/Sdk/caches/transforms-3/b8962676d9edf245416937af5de0e856/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+117-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\User\.gradle\caches\transforms-3\b8962676d9edf245416937af5de0e856\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
 118            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-118-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/gideon/Android/Sdk/caches/transforms-3/b8962676d9edf245416937af5de0e856/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+118-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\User\.gradle\caches\transforms-3\b8962676d9edf245416937af5de0e856\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
 119            android:exported="false" />
-119-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/gideon/Android/Sdk/caches/transforms-3/b8962676d9edf245416937af5de0e856/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+119-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\User\.gradle\caches\transforms-3\b8962676d9edf245416937af5de0e856\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
 120    </application>
 121
 122</manifest>

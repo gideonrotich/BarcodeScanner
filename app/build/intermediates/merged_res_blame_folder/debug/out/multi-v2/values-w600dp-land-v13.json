@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/gideon/StudioProjects/Jetpack-Compose-BarCode-Scanner/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+            "outputFile": "D:\\ANDROID\\XMLClones\\BarcodeScannerMine\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/home/gideon/Android/Sdk/caches/transforms-3/1b0b224398cf32f10e94b4a9c0d6e2dc/transformed/material-1.4.0/res/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\1b0b224398cf32f10e94b4a9c0d6e2dc\\transformed\\material-1.4.0\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

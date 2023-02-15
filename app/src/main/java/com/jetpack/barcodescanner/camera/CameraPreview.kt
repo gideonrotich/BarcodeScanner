@@ -9,7 +9,6 @@ import androidx.camera.core.ImageAnalysis
 import androidx.camera.core.Preview
 import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.camera.view.PreviewView
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -19,12 +18,11 @@ import androidx.compose.ui.platform.LocalLifecycleOwner
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.core.content.ContextCompat
-import coil.compose.rememberAsyncImagePainter
-import coil.request.ImageRequest
-import coil.size.Size
+import com.airbnb.lottie.compose.LottieAnimation
+import com.airbnb.lottie.compose.LottieCompositionSpec
+import com.airbnb.lottie.compose.rememberLottieComposition
 import com.google.common.util.concurrent.ListenableFuture
 import com.jetpack.barcodescanner.R
-import com.jetpack.barcodescanner.gifLoader
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 
@@ -37,6 +35,16 @@ fun CameraPreview() {
     var showGif by remember { mutableStateOf(true) }
 
     Box(modifier = Modifier.fillMaxSize()) {
+        if (!showGif){
+            Column(
+                modifier = Modifier.fillMaxSize(),
+                verticalArrangement = Arrangement.Bottom,
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) {
+                SuccessAnimation()
+            }
+
+        }
         AndroidView(
 
             factory = { AndroidViewContext ->
@@ -50,7 +58,9 @@ fun CameraPreview() {
                 }
             },
             modifier = Modifier
-                .fillMaxSize(),
+                .width(230.dp)
+                .height(230.dp)
+                .align(Alignment.Center),
             update = { previewView ->
 
                 val cameraSelector: CameraSelector = CameraSelector.Builder()
@@ -71,7 +81,7 @@ fun CameraPreview() {
                                 barCodeVal.value = barcodeValue
 
                                 if (barcodeValue.length >= 10) {
-//                                    showGif = !showGif
+                                    showGif = !showGif
                                     Toast.makeText(
                                         context,
                                         "$barcodeValue is greater than 10",
@@ -117,6 +127,30 @@ fun CameraPreview() {
 
 
 @Composable
+fun SuccessAnimation() {
+    val composition by rememberLottieComposition(
+        spec = LottieCompositionSpec.RawRes(R.raw.success)
+    )
+    LottieAnimation(
+        composition = composition,
+        //progress = { /*TODO*/ },
+        iterations = 10
+    )
+}
+
+@Composable
+fun FailureAnimation() {
+    val composition by rememberLottieComposition(
+        spec = LottieCompositionSpec.RawRes(R.raw.failure)
+    )
+    LottieAnimation(
+        composition = composition,
+        //progress = { /*TODO*/ },
+        iterations = 10
+    )
+}
+
+/*@Composable
 fun LoadingGif(
     context: Context,
     modifier: Modifier
@@ -132,4 +166,4 @@ fun LoadingGif(
             .fillMaxWidth()
             .height(90.dp)
     )
-}
+}*/

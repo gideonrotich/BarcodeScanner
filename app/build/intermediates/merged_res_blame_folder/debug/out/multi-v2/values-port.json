@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/gideon/StudioProjects/Jetpack-Compose-BarCode-Scanner/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+            "outputFile": "D:\\ANDROID\\XMLClones\\BarcodeScannerMine\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
             "map": [
                 {
-                    "source": "/home/gideon/Android/Sdk/caches/transforms-3/f4fb29fa3c718b5415582623ca386f7c/transformed/appcompat-1.4.0/res/values-port/values-port.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\f4fb29fa3c718b5415582623ca386f7c\\transformed\\appcompat-1.4.0\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
