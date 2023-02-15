@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/gideon/StudioProjects/Jetpack-Compose-BarCode-Scanner/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "D:\\ANDROID\\XMLClones\\BarcodeScannerMine\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "/home/gideon/Android/Sdk/caches/transforms-3/f4fb29fa3c718b5415582623ca386f7c/transformed/appcompat-1.4.0/res/values-v24/values-v24.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\f4fb29fa3c718b5415582623ca386f7c\\transformed\\appcompat-1.4.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
