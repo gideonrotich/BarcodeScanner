@@ -33,6 +33,7 @@ fun CameraPreview() {
     var preview by remember { mutableStateOf<Preview?>(null) }
     val barCodeVal = remember { mutableStateOf("") }
     var showGif by remember { mutableStateOf(true) }
+    var failure by remember { mutableStateOf(true) }
 
     Box(modifier = Modifier.fillMaxSize()) {
         if (!showGif){
@@ -42,6 +43,17 @@ fun CameraPreview() {
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
                 SuccessAnimation()
+                //test
+            }
+
+        }
+        if (!failure){
+            Column(
+                modifier = Modifier.fillMaxSize(),
+                verticalArrangement = Arrangement.Bottom,
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) {
+                FailureAnimation()
             }
 
         }
@@ -82,18 +94,10 @@ fun CameraPreview() {
 
                                 if (barcodeValue.length >= 10) {
                                     showGif = !showGif
-                                    Toast.makeText(
-                                        context,
-                                        "$barcodeValue is greater than 10",
-                                        Toast.LENGTH_SHORT
-                                    ).show()
 
-                                } else {
-                                    Toast.makeText(
-                                        context,
-                                        "$barcodeValue is less than 10",
-                                        Toast.LENGTH_SHORT
-                                    ).show()
+                                }
+                                if(barcodeValue.length < 10){
+                                    failure = !failure
                                 }
 
                             }
@@ -134,7 +138,7 @@ fun SuccessAnimation() {
     LottieAnimation(
         composition = composition,
         //progress = { /*TODO*/ },
-        iterations = 10
+        iterations = 2
     )
 }
 
@@ -146,7 +150,7 @@ fun FailureAnimation() {
     LottieAnimation(
         composition = composition,
         //progress = { /*TODO*/ },
-        iterations = 10
+        iterations = 2
     )
 }
 

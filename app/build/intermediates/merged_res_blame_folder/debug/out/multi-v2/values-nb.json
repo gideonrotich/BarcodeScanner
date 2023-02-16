@@ -1,27 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\ANDROID\\XMLClones\\BarcodeScannerMine\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-nb\\values-nb.xml",
+            "outputFile": "/home/gideon/StudioProjects/Jetpack-Compose-BarCode-Scanner/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nb/values-nb.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\acb209d88ce91ed7fb4d20f7c42190d1\\transformed\\core-1.7.0\\res\\values-nb\\values-nb.xml",
+                    "source": "/home/gideon/Android/Sdk/caches/transforms-3/f4fb29fa3c718b5415582623ca386f7c/transformed/appcompat-1.4.0/res/values-nb/values-nb.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,208,303,417,503,603,716,793,868,959,1052,1146,1240,1340,1433,1528,1626,1717,1808,1886,1989,2087,2183,2287,2386,2487,2640,2737",
+                        "endColumns": "102,94,113,85,99,112,76,74,90,92,93,93,99,92,94,97,90,90,77,102,97,95,103,98,100,152,96,79",
+                        "endOffsets": "203,298,412,498,598,711,788,863,954,1047,1141,1235,1335,1428,1523,1621,1712,1803,1881,1984,2082,2178,2282,2381,2482,2635,2732,2812"
                     },
                     "to": {
-                        "startLines": "118",
-                        "startColumns": "4",
-                        "startOffsets": "10917",
-                        "endColumns": "100",
-                        "endOffsets": "11013"
+                        "startLines": "6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,116",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "266,369,464,578,664,764,877,954,1029,1120,1213,1307,1401,1501,1594,1689,1787,1878,1969,2047,2150,2248,2344,2448,2547,2648,2801,10767",
+                        "endColumns": "102,94,113,85,99,112,76,74,90,92,93,93,99,92,94,97,90,90,77,102,97,95,103,98,100,152,96,79",
+                        "endOffsets": "364,459,573,659,759,872,949,1024,1115,1208,1302,1396,1496,1589,1684,1782,1873,1964,2042,2145,2243,2339,2443,2542,2643,2796,2893,10842"
                     }
                 },
                 {
-                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\1b0b224398cf32f10e94b4a9c0d6e2dc\\transformed\\material-1.4.0\\res\\values-nb\\values-nb.xml",
+                    "source": "/home/gideon/Android/Sdk/caches/transforms-3/1b0b224398cf32f10e94b4a9c0d6e2dc/transformed/material-1.4.0/res/values-nb/values-nb.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -40,24 +40,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\dd29543d16b773247f01875214fbcc27\\transformed\\jetified-ui-1.1.1\\res\\values-nb\\values-nb.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,198,279,376,476,564,640,748,837,919,983,1047,1117,1184",
-                        "endColumns": "92,80,96,99,87,75,107,88,81,63,63,69,66,119",
-                        "endOffsets": "193,274,371,471,559,635,743,832,914,978,1042,1112,1179,1299"
-                    },
-                    "to": {
-                        "startLines": "37,38,57,58,59,63,64,111,112,113,114,117,119,120",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "3285,3378,6161,6258,6358,6670,6746,10390,10479,10561,10625,10847,11018,11085",
-                        "endColumns": "92,80,96,99,87,75,107,88,81,63,63,69,66,119",
-                        "endOffsets": "3373,3454,6253,6353,6441,6741,6849,10474,10556,10620,10684,10912,11080,11200"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\fec6c74c3b5836a1694b124fdc236ac3\\transformed\\jetified-play-services-base-17.6.0\\res\\values-nb\\values.xml",
+                    "source": "/home/gideon/Android/Sdk/caches/transforms-3/fec6c74c3b5836a1694b124fdc236ac3/transformed/jetified-play-services-base-17.6.0/res/values-nb/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -74,24 +57,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\f4fb29fa3c718b5415582623ca386f7c\\transformed\\appcompat-1.4.0\\res\\values-nb\\values-nb.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,208,303,417,503,603,716,793,868,959,1052,1146,1240,1340,1433,1528,1626,1717,1808,1886,1989,2087,2183,2287,2386,2487,2640,2737",
-                        "endColumns": "102,94,113,85,99,112,76,74,90,92,93,93,99,92,94,97,90,90,77,102,97,95,103,98,100,152,96,79",
-                        "endOffsets": "203,298,412,498,598,711,788,863,954,1047,1141,1235,1335,1428,1523,1621,1712,1803,1881,1984,2082,2178,2282,2381,2482,2635,2732,2812"
-                    },
-                    "to": {
-                        "startLines": "6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,116",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "266,369,464,578,664,764,877,954,1029,1120,1213,1307,1401,1501,1594,1689,1787,1878,1969,2047,2150,2248,2344,2448,2547,2648,2801,10767",
-                        "endColumns": "102,94,113,85,99,112,76,74,90,92,93,93,99,92,94,97,90,90,77,102,97,95,103,98,100,152,96,79",
-                        "endOffsets": "364,459,573,659,759,872,949,1024,1115,1208,1302,1396,1496,1589,1684,1782,1873,1964,2042,2145,2243,2339,2443,2542,2643,2796,2893,10842"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\52d4c0af510650cb8fe8910795c1339f\\transformed\\jetified-play-services-basement-17.6.0\\res\\values-nb\\values.xml",
+                    "source": "/home/gideon/Android/Sdk/caches/transforms-3/52d4c0af510650cb8fe8910795c1339f/transformed/jetified-play-services-basement-17.6.0/res/values-nb/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -105,6 +71,40 @@
                         "startOffsets": "4625",
                         "endColumns": "188",
                         "endOffsets": "4809"
+                    }
+                },
+                {
+                    "source": "/home/gideon/Android/Sdk/caches/transforms-3/dd29543d16b773247f01875214fbcc27/transformed/jetified-ui-1.1.1/res/values-nb/values-nb.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,198,279,376,476,564,640,748,837,919,983,1047,1117,1184",
+                        "endColumns": "92,80,96,99,87,75,107,88,81,63,63,69,66,119",
+                        "endOffsets": "193,274,371,471,559,635,743,832,914,978,1042,1112,1179,1299"
+                    },
+                    "to": {
+                        "startLines": "37,38,57,58,59,63,64,111,112,113,114,117,119,120",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3285,3378,6161,6258,6358,6670,6746,10390,10479,10561,10625,10847,11018,11085",
+                        "endColumns": "92,80,96,99,87,75,107,88,81,63,63,69,66,119",
+                        "endOffsets": "3373,3454,6253,6353,6441,6741,6849,10474,10556,10620,10684,10912,11080,11200"
+                    }
+                },
+                {
+                    "source": "/home/gideon/Android/Sdk/caches/transforms-3/acb209d88ce91ed7fb4d20f7c42190d1/transformed/core-1.7.0/res/values-nb/values-nb.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "118",
+                        "startColumns": "4",
+                        "startOffsets": "10917",
+                        "endColumns": "100",
+                        "endOffsets": "11013"
                     }
                 }
             ]
