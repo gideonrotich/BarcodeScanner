@@ -1,10 +1,4 @@
-# Android Take Home Assignment
 
-This is a take home assignment for an Android developer applying to IDFlo
-
-## Introduction
-
-For this assignment, you need to do the following:
 
 * Create a new Android app
 * Ask for permissions from the user to get location & use camera view.
